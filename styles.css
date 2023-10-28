@@ -1,0 +1,17 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hurricane', cursive;
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid #401C2D;
+    border-bottom: 1px solid #401C2D;
+    padding: 20px;
+}
+
+footer {
+    text-transform: uppercase;
+}
