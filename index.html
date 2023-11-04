@@ -5,43 +5,77 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Poppins&display=swap" rel="stylesheet">
     <title>3 Sisters Investing</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div></div>
-            <div> home </div>
-            <div> about </div>
-            <div> our partners </div>
-            <div> work with us </div>
-            <div> blog </div>
-            <div></div>
+            <div class="announcement-bar">now accepting partner applications</div>
+            <ul class="nav-bar">
+                <li></li>
+                <li>home</li>
+                <li>about</li>
+                <li>our partners</li>
+                <li>work with us</li>
+                <li>blog</li>
+                <li></li>
+            </ul>
         </nav>
     </header>
     <!-- Main Message -->
     <main>
-
+        <div class="main-container">
+            <img class="main-image" alt="Image of three sisters" src="assets/3 Sisters Cropped.png">
+            <h1 class="main-text">We invest in early stage businesses and help them scale sustainably.</h1>
+        </div>
     </main>
 
     <!-- About Us -->
-    <section>
+    <h2>meet the investors</h2>
+    <section class="about-us-container">
         <!-- Worthy Bio -->
-        Worthy Lee
-        CTO of Nature Kids Connect
-        Homeschool Mom of two
+        <div class="worthy-container">
+            <div class="worthy-image">
+                <div class="worthy-name">Worthy Lee</div>
+            </div>
+            <div class="worthy-bio">Blurb about Worthy...CTO of Nature Kids Connect
+                Homeschool Mom of two</div>
+        </div>
         <!-- Eden Bio -->
-        Eden Soper
-        UX Designer at Adobe
-        SEO with Boostability
-        Social Media Marketing with Freshly Picked
-        Podcast Burn that Book
+        <div class="eden-container">
+            <div class="eden-image">
+                <div class="eden-name">Eden Wen</div>
+            </div>
+            <div class="eden-bio">Blurb about Eden...UX Designer at Adobe
+                SEO with Boostability
+                Social Media Marketing with Freshly Picked
+                Podcast Burn that Book</div>
+        </div>
         <!-- Illia Bio -->
-        Illia Wen
-        IBM
-        Avid Traveler
+        <div class="illia-container">
+            <div class="illia-image">
+                <div class="illia-name">Illia Wen</div>
+            </div>
+            <div class="illia-bio">Blurb about Illia...IBM
+                Avid Traveler</div>
+        </div>
+    </section>
+
+    <!-- Our Partners -->
+    <h2>meet our partners</h2>
+    <section class="partner-section">
+        <div class="partner-container">
+            <a href="https://www.naturekidsconnect.com">
+                <img alt="Nature Kids Connect Logo" class="nature-kids-connect" src="assets/nkc_logo.png">
+            </a>
+            <a href="https://burnthisbook.substack.com/">
+                <img alt="Burn that Book Logo" class="burn-that-book" src="assets/burn_this_book_logo.png">
+            </a>
+            <img alt="Homemade Taiwan Delights Logo" class="taiwan-delights" src="assets/taiwan_delights_logo.png">
+            <img alt="Fallout Bunker Logo" class="fallout-bunker" src="assets/fallout_bunker_logo.png">
+        </div>
     </section>
 
     <!-- What we do for our partners -->
@@ -54,14 +88,6 @@
         </ul>
     </section>
 
-    <!-- Our Partners -->
-    <section>
-        Our Partners
-        Nature Kids Connect
-        Taiwan Delights - coming soon
-        Modern Amish Goods
-        Fallout Ammunition
-    </section>
 
     <!-- Who Should Apply -->
     <section>
@@ -75,7 +101,7 @@
 
 
     <footer>
-        3 sisters investing copyright 2023 | terms and conditions
+        3 sisters investing | copyright 2023 | terms and conditions
         <script src="app.js">
         </script>
     </footer>
