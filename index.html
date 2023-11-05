@@ -12,14 +12,16 @@
 <body>
     <header>
         <nav>
-            <div class="announcement-bar">now accepting partner applications</div>
+            <div class="announcement-bar">now accepting partner applications ->><a
+                    class="announcement-bar-apply-now-link" href="#" target="_blank">click here to apply</a>
+            </div>
             <ul class="nav-bar">
                 <li></li>
-                <li>home</li>
-                <li>about</li>
-                <li>our partners</li>
-                <li>work with us</li>
-                <li>blog</li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#meet-the-investors">about</a></li>
+                <li><a href="#meet-our-partners">our partners</a></li>
+                <li><a href="#work-with-us">work with us</a></li>
+                <li><a href="blog.html">blog</a></li>
                 <li></li>
             </ul>
         </nav>
@@ -33,7 +35,7 @@
     </main>
 
     <!-- About Us -->
-    <h2>meet the investors</h2>
+    <h2 id="meet-the-investors">meet the investors</h2>
     <section class="about-us-container">
         <!-- Worthy Bio -->
         <div class="worthy-container">
@@ -64,14 +66,16 @@
     </section>
 
     <!-- Our Partners -->
-    <h2>meet our partners</h2>
+    <h2 id="meet-our-partners">meet our partners</h2>
     <section class="partner-section">
         <div class="partner-container">
-            <a href="https://www.naturekidsconnect.com">
-                <img alt="Nature Kids Connect Logo" class="nature-kids-connect" src="assets/nkc_logo.png">
+            <a href="https://www.naturekidsconnect.com" target="_blank" rel="noopener">
+                <img alt="Nature Kids Connect Logo" class="nature-kids-connect" src="assets/nkc_logo.png"
+                    target="_blank">
             </a>
-            <a href="https://burnthisbook.substack.com/">
-                <img alt="Burn that Book Logo" class="burn-that-book" src="assets/burn_this_book_logo.png">
+            <a href="https://burnthisbook.substack.com/" target="_blank" rel="noopener">
+                <img alt="Burn that Book Logo" class="burn-that-book" src="assets/burn_this_book_logo.png"
+                    target="_blank">
             </a>
             <img alt="Homemade Taiwan Delights Logo" class="taiwan-delights" src="assets/taiwan_delights_logo.png">
             <img alt="Fallout Bunker Logo" class="fallout-bunker" src="assets/fallout_bunker_logo.png">
@@ -79,29 +83,65 @@
     </section>
 
     <!-- What we do for our partners -->
-    <section>
-        <ul>What do we do for our partners?
-            <li>we guide them in taking the next right step in their business</li>
-            <li>we streamline and automate all of the business's processes for maximum productivity in a sustainable way
-            </li>
-            <li>we honor our partners in their vision of what they want for their business and help them achieve it</li>
-        </ul>
-    </section>
+    <h2 id="work-with-us">work with us</h2>
+    <section class="work-with-us-container">
+        <div class="work-with-us-text">
+            <h3>What do we do for our partners?</h3>
+            <ul>
+                <li>we guide them in taking the next right step in their business</li>
+                <li>we streamline and automate all of the business's processes for maximum productivity in a sustainable
+                    way
+                </li>
+                <li>we honor our partners in their vision of what they want for their business and help them achieve it
+                </li>
+            </ul>
 
-
-    <!-- Who Should Apply -->
-    <section>
-        <ul>Who should apply to work with us?
-            <li>one person businesses with a large waitlist</li>
-            <li>product or service must be 5 star and scalable</li>
-            <li>desire to grow the business into a full-time income or beyond</li>
-        </ul>
-        Apply Here
+            <!-- Who Should Apply -->
+            <h3>Who should apply to work with us?</h3>
+            <ul>
+                <li>one person businesses with a large waitlist</li>
+                <li>product or service must be 5 star and scalable</li>
+                <li>desire to grow the business into a full-time income or beyond</li>
+            </ul>
+        </div>
+        <div class="apply-here-button-container">
+            <a href="#" class="apply-here-button">Apply Here</a>
+        </div>
     </section>
 
 
     <footer>
-        3 sisters investing | copyright 2023 | terms and conditions
+        <div class="footer-container">
+            <div class="footer-links-container">
+                <ul class="footer-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#meet-the-investors">about</a></li>
+                    <li><a href="#meet-our-partners">our partners</a></li>
+                    <li><a href="#work-with-us">work with us</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+                <div></div>
+            </div>
+            <div class="footer-logo-container">
+                <img alt="Three Sisters Logo" class="footer-logo" src="assets/3 Sisters Cropped.png">
+            </div>
+            <div class="footer-contact-container">
+                <h4>Contact Us</h4>
+                <div class="linkedin-container">
+                    <a href="https://www.linkedin.com/in/worthy-lee-962a30284/" target="_blank">
+                        <img alt="LinkedIn Logo" class="linkedin-logo" src="assets/linkedin icon.png"></a>
+                    <div></div>
+                    <div class="linkedin-text">Find us on LinkedIn</div>
+                    <div></div>
+                </div>
+                <div class="footer-about">
+                    <p>3 Sisters Investing is an investment firm investing in early stage businesses.
+                    </p>
+                    <p>Based in Salt Lake City, Utah and Raleigh, North Carolina.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">3 sisters investing | copyright 2023 | terms and conditions</div>
         <script src="app.js">
         </script>
     </footer>
