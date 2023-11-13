@@ -31,11 +31,12 @@
     }
 
     .eden-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .eden-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .eden-image {
@@ -83,11 +84,12 @@
     }
 
     .illia-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .illia-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .illia-image {
@@ -159,11 +161,12 @@
     }
 
     .worthy-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .worthy-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .worthy-image {
@@ -185,7 +188,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) {
     h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     h2 {
@@ -205,16 +208,17 @@
     }
 
     .eden-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .eden-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .eden-image {
-        width: 60vw;
-        height: 63vh;
+        width: 50vw;
+        height: 55vh;
         font-size: 40px;
     }
 
@@ -256,16 +260,17 @@
     }
 
     .illia-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .illia-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .illia-image {
-        width: 60vw;
-        height: 60vh;
+        width: 50vw;
+        height: 55vh;
         font-size: 40px;
     }
 
@@ -314,16 +319,17 @@
     }
 
     .worthy-bio {
-        width: 70vw;
+        width: 60vw;
+        margin-top: 20px;
     }
 
     .worthy-container {
-        width: 90vw;
+        width: 70vw;
     }
 
     .worthy-image {
-        width: 60vw;
-        height: 63vh;
+        width: 50vw;
+        height: 55vh;
         font-size: 40px;
     }
 
@@ -363,7 +369,7 @@
     }
 
     .eden-bio {
-        width: 40vw;
+        width: 35vw;
     }
 
     .eden-container {
@@ -371,13 +377,12 @@
     }
 
     .eden-image {
-        width: 40vw;
-        height: 60vh;
+        width: 35vw;
         font-size: 40px;
     }
 
     .eden-name {
-        width: 40vw;
+        width: 35vw;
         font-size: smaller;
     }
 
@@ -414,7 +419,7 @@
     }
 
     .illia-bio {
-        width: 40vw;
+        width: 35vw;
     }
 
     .illia-container {
@@ -422,13 +427,12 @@
     }
 
     .illia-image {
-        width: 40vw;
-        height: 56vh;
+        width: 35vw;
         font-size: 40px;
     }
 
     .illia-name {
-        width: 40vw;
+        width: 35vw;
         font-size: smaller;
     }
 
@@ -474,7 +478,7 @@
     }
 
     .worthy-bio {
-        width: 25vw;
+        width: 35vw;
     }
 
     .worthy-container {
@@ -482,13 +486,12 @@
     }
 
     .worthy-image {
-        width: 40vw;
-        height: 60vh;
+        width: 35vw;
         font-size: 40px;
     }
 
     .worthy-name {
-        width: 40vw;
+        width: 35vw;
         font-size: smaller;
     }
 
@@ -523,21 +526,20 @@
     }
 
     .eden-bio {
-        width: 25vw;
+        width: 20vw;
     }
 
     .eden-container {
-        width: 33vw;
+        width: 50%;
     }
 
     .eden-image {
         width: 20vw;
-        height: 400px;
         font-size: 40px;
     }
 
     .eden-name {
-        width: 33vw;
+        width: 20vw;
         font-size: smaller;
     }
 
@@ -574,21 +576,20 @@
     }
 
     .illia-bio {
-        width: 25vw;
+        width: 20vw;
     }
 
     .illia-container {
-        width: 33vw;
+        width: 50%;
     }
 
     .illia-image {
         width: 20vw;
-        height: 400px;
         font-size: 40px;
     }
 
     .illia-name {
-        width: 33vw;
+        width: 20vw;
         font-size: smaller;
     }
 
@@ -630,21 +631,20 @@
     }
 
     .worthy-bio {
-        width: 25vw;
+        width: 20vw;
     }
 
     .worthy-container {
-        width: 33vw;
+        width: 50%;
     }
 
     .worthy-image {
         width: 20vw;
-        height: 400px;
         font-size: 40px;
     }
 
     .worthy-name {
-        width: 33vw;
+        width: 20vw;
         font-size: smaller;
     }
 
@@ -709,14 +709,13 @@ footer {
 
 .announcement-bar {
     background-color: #733954;
-    height: 40px;
+    height: 48px;
     width: 100%;
     color: #D5E2F2;
     font-family: 'Poppins', sans-serif;
     font-size: small;
     display: grid;
     place-items: center;
-    padding: 3px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -775,9 +774,9 @@ footer {
 
 .eden-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: stretch;
     padding: 20px 0px 20px 0px;
@@ -870,9 +869,9 @@ footer {
 
 .illia-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: stretch;
     padding: 20px 0px 20px 0px;
@@ -938,6 +937,7 @@ footer {
 }
 
 .nav-bar {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -1001,11 +1001,12 @@ footer {
 
 .worthy-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     align-content: stretch;
+    padding: 20px 0px 20px 0px;
 }
 
 .worthy-image {
